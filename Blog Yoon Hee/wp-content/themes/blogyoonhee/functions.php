@@ -2,7 +2,7 @@
 
 /*aqui se indica la agregacion de los estilos css*/
 function agregar_estilos() {
-    wp_register_style('bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css' );
+    wp_register_style('bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
     $dependencies = array('bootstrap');
     wp_enqueue_style( 'blog-style', get_stylesheet_uri(), $dependencies ); 
 }
@@ -10,7 +10,7 @@ function agregar_estilos() {
 /*aqui se agregan los scripts de bootstrap */
 function agregar_scripts() {
     $dependencies = array('jquery');
-    wp_enqueue_script('bootstrap', get_template_directory_uri().'/bootstrap/js/bootstrap.min.js', $dependencies, '4.3.1', true );
+    wp_enqueue_script('bootstrap', get_template_directory_uri().'/assets/js/bootstrap.min.js', $dependencies, '4.3.1', true );
 }
 
 add_action( 'wp_enqueue_scripts', 'agregar_estilos' );
@@ -64,6 +64,30 @@ function bootstrapstarter_widgets_init() {
 add_action( 'widgets_init', 'bootstrapstarter_widgets_init' );
 
 
+/*
+function namespace_theme_stylesheets() {
+    wp_register_style( 'mamies-wafers-bootstrap-min',  get_template_directory_uri() .'/css/bootstrap.min.css', array(), null, 'all' );
+    wp_register_style( 'mamies-wafers-carousel',  get_template_directory_uri() .'/css/carousel.css', array(), null, 'all' );
+    wp_register_style( 'mamies-wafers-style', get_stylesheet_uri(), '', null, 'all' );
+    wp_enqueue_style( 'mamies-wafers-bootstrap-min' );
+    wp_enqueue_style( 'mamies-wafers-carousel' );
+    wp_enqueue_style( 'mamies-wafers-style' );
+}
+add_action( 'wp_enqueue_scripts', 'namespace_theme_stylesheets' );*/
 
+foreach( glob( get_template_directory(). 'assets/css/*.css' ) as $file ) {
+            $file = str_replace(get_template_directory(), '', $file);
+            echo ( get_template_directory_uri() . $file);
+            // $file contains the name and extension of the file
+            wp_enqueue_style( $file.'style', get_template_directory_uri() . $file);
+        }
+
+
+
+    foreach( glob( get_template_directory(). 'assets/js/*.js' ) as $file ) {
+        $file = str_replace(get_template_directory(), '', $file);
+        // $file contains the name and extension of the file
+        wp_enqueue_script( $file . 'script', get_template_directory_uri() . $file);
+    }
 
 ?>
