@@ -32,7 +32,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <?php wp_head(); 
-    //get_template_part('partials/asidenavbar');
+    get_template_part('partials/asidenavbar');
     //get_header('navbarmenu');
     
     ?>
