@@ -8,17 +8,7 @@
                 
                 <li class="active">
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="">HOME</a>
-                    <!--<ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="#">HOME</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 3</a>
-                        </li>
-                    </ul>-->
+                    
                 </li>
                 <li>
                     <a href="#">GALLERY</a>
