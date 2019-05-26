@@ -8,33 +8,21 @@ Template Name: Collections 1 - template
 
 <?php 
 get_header();
-get_template_part('partials/asidenavbar');
+get_template_part('partials/navbars/forcoll1');
 ?>
 
 <!-- Toggle button  -->
 <div id="content">
-            <nav class="">
-                    <div class="container-fluid">
+    <?php get_template_part('partials/toggle'); ?>
 
-                        <button type="button" id="sidebarCollapse" class="btn btn-info">
-                            <i class="fas fa-align-left"></i>
-                            <span>Toggle</span>
-                        </button>
-                        
-                    </div>
-                </nav>
-            
-        </div>
-    </div>
 
-<!-- Collection No. 1  -->
+       
+
+<!-- Collection No. 1 Content -->
 <div class="container">
  
      <div class="container gallery-container">
-       
-         <h1 class="text-center">Bootstrap 3 Gallery</h1>
-       
-         <p class="page-description text-center">Grid Layout With Zoom Effect</p>
+
            
          <div class="tz-gallery">
        
@@ -42,7 +30,7 @@ get_template_part('partials/asidenavbar');
                  <div class="col-md-4">
                      <div class="card">
                          <a class="lightbox">
-                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0970.jpg" class="img-fluid" alt="Responsive image" class="card-img-top">
+                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0970.jpg" alt="Responsive image" class="card-img-top">
                          </a>
                      </div>
                  </div>
@@ -95,10 +83,8 @@ get_template_part('partials/asidenavbar');
      </div>
       
      </div>
-
+     </div>
+    </div>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js">
-     <script>
-        baguetteBox.run('.tz-gallery');
-     </script>
 
 <?php get_footer(); ?>

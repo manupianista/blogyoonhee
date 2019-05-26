@@ -1215,12 +1215,6 @@ ol {
 	padding-right: 40px;
 }
 
-/* image width-height changes */
-.img-fluid {
-	max-width: 100%;
-	height: auto;
-  }
-
 
 /* ----------------
   Responsive
@@ -1557,3 +1551,8 @@ ol {
 		padding: 100px 15px 0;
 	}
 }
+
+/* image width-height changes 
+.img-fluid #este_id{
+	height: 447px;
+  }*/
