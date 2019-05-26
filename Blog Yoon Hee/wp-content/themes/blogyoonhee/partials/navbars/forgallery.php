@@ -5,32 +5,27 @@
 <nav id="sidebar">
             <div class="sidebar-header">
                 
-                <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/2.png" class="img-fluid" alt="Responsive image">
+                <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/1.png" class="img-fluid" alt="logo">
             </div>
 
             <ul class="list-unstyled components text-center">
                 
-                <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="">HOME</a>
+                <li>
+                    <a href="index.php">HOME</a>
                     
                 </li>
-                <li>
-                    <a href="#">GALLERY</a>
+                <li class="active">
+                    <a href="index.php/gallery">GALLERY</a>
                 </li>
                 <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">COLLECTIONS</a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
-                        <li>
-                            <a href="#">COLLECTION NO. 1</a>
-                        </li>
-                        <li>
-                            <a href="#">BEST PROYECT</a>
-                        </li>
-                        
-                    </ul>
+                    <a href="index.php/collection-no-1">COLLECTION NO. 1</a>
                 </li>
                 <li>
-                    <a href="#">CONTACT</a>
+                     <a href="index.php/best-proyect">BEST PROYECT</a>
+                </li>
+                
+                <li>
+                    <a href="index.php/contact">CONTACT</a>
                 </li>
                 
             </ul>

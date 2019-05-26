@@ -15,7 +15,7 @@ function agregar_scripts() {
 
 function agregar_scripts_toggle() {
     $dependencies = array('jquery');
-    wp_enqueue_script('toggle', get_template_directory_uri().'/assets/js/toggle.js');
+    wp_enqueue_script('toggle', get_template_directory_uri().'/assets/js/toggle.js', $dependecies);
 }
 
 add_action( 'wp_enqueue_scripts', 'agregar_estilos' );
@@ -81,6 +81,7 @@ function namespace_theme_stylesheets() {
 }
 add_action( 'wp_enqueue_scripts', 'namespace_theme_stylesheets' );*/
 
+/*
 foreach( glob( get_template_directory(). 'assets/css/*.css' ) as $file ) {
             $file = str_replace(get_template_directory(), '', $file);
             echo ( get_template_directory_uri() . $file);
@@ -95,5 +96,5 @@ foreach( glob( get_template_directory(). 'assets/css/*.css' ) as $file ) {
         // $file contains the name and extension of the file
         wp_enqueue_script( $file . 'script', get_template_directory_uri() . $file);
     }
-
+*/
 ?>
