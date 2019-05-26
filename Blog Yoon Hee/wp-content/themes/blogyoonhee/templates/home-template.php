@@ -8,23 +8,15 @@ Template Name: home-template
 
 <?php 
 get_header(); 
-get_template_part('partials/asidenavbar');
+get_template_part('partials/navbars/asidenavbar');
 ?>
 
         
     
         <!-- Page Content  -->
         <div id="content">
-            <nav class="">
-                    <div class="container-fluid">
 
-                        <button type="button" id="sidebarCollapse" class="btn btn-info">
-                            <i class="fas fa-align-left"></i>
-                            <span>Toggle</span>
-                        </button>
-                        
-                    </div>
-                </nav>
+            <?php get_template_part('partials/toggle'); ?>
             
         </div>
     </div>
