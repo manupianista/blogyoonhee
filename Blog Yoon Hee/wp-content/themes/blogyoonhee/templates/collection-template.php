@@ -6,8 +6,28 @@ Template Name: Collections 1 - template
 
 ?>
 
-<?php get_header(); ?>
+<?php 
+get_header();
+get_template_part('partials/asidenavbar');
+?>
 
+<!-- Toggle button  -->
+<div id="content">
+            <nav class="">
+                    <div class="container-fluid">
+
+                        <button type="button" id="sidebarCollapse" class="btn btn-info">
+                            <i class="fas fa-align-left"></i>
+                            <span>Toggle</span>
+                        </button>
+                        
+                    </div>
+                </nav>
+            
+        </div>
+    </div>
+
+<!-- Collection No. 1  -->
 <div class="container">
  
      <div class="container gallery-container">
