@@ -42,7 +42,7 @@ get_template_part('partials/asidenavbar');
                  <div class="col-md-4">
                      <div class="card">
                          <a class="lightbox">
-                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0970.jpg" class="img-fluid" alt="Park" class="card-img-top">
+                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0970.jpg" class="img-fluid" alt="Responsive image" class="card-img-top">
                          </a>
                      </div>
                  </div>
@@ -50,7 +50,7 @@ get_template_part('partials/asidenavbar');
                  <div class="col-md-4">
                      <div class="card">
                          <a class="lightbox">
-                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0974-2.jpg" alt="Park" class="card-img-top">
+                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0974-2.jpg" alt="Responsive image" class="card-img-top">
                          </a>
                      </div>
                  </div>
@@ -58,7 +58,7 @@ get_template_part('partials/asidenavbar');
                  <div class="col-md-4">
                      <div class="card">
                          <a class="lightbox">
-                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0980.jpg" alt="Park" class="card-img-top">
+                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0980.jpg" alt="Responsive image" class="card-img-top">
                          </a>
                      </div>
                  </div>
@@ -67,7 +67,7 @@ get_template_part('partials/asidenavbar');
                  <div class="col-md-4">
                      <div class="card">
                          <a class="lightbox">
-                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0977.jpg" alt="Park" class="card-img-top">
+                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0977.jpg" alt="Responsive image" class="card-img-top">
                          </a>
                      </div>
                  </div>
@@ -75,7 +75,7 @@ get_template_part('partials/asidenavbar');
                  <div class="col-md-4">
                      <div class="card">
                          <a class="lightbox">
-                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0943.jpg" alt="Park" class="card-img-top">
+                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0943.jpg" alt="Responsive image" class="card-img-top">
                          </a>
                      </div>
                  </div>
@@ -83,7 +83,7 @@ get_template_part('partials/asidenavbar');
                  <div class="col-md-4">
                      <div class="card">
                          <a class="lightbox">
-                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0961.jpg" alt="Park" class="card-img-top">
+                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0961.jpg" alt="Responsive image" class="card-img-top">
                          </a>
                      </div>
                  </div>
