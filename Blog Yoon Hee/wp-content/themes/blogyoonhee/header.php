@@ -11,9 +11,8 @@
      <!-- Scrollbar Custom CSS -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
      
-
-     <!-- Notre CSS -->
-     <link rel="stylesheet" href="style.css">
+     <!-- Link css for collection-template.php -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
  
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -26,7 +25,7 @@
     ?>
 </head>
 
-<body 
+<body> 
 <?php 
 body_class(); 
 get_template_part('partials/asidenavbar');

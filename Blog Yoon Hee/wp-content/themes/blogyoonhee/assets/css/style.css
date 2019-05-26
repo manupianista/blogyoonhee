@@ -1215,6 +1215,13 @@ ol {
 	padding-right: 40px;
 }
 
+/* image width-height changes */
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+  }
+
+
 /* ----------------
   Responsive
 ---------------------*/
