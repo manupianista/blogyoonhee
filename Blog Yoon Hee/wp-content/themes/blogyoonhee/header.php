@@ -28,6 +28,6 @@
 <body> 
 <?php 
 body_class(); 
-get_template_part('partials/asidenavbar');
+
 ?>
 

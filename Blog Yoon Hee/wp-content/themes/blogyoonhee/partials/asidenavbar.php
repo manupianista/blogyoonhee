@@ -4,7 +4,8 @@
 <!-- Sidebar  -->
 <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>Yoon Hee</h3>
+                
+                <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/2.png" class="img-fluid" alt="Responsive image">
             </div>
 
             <ul class="list-unstyled components">
