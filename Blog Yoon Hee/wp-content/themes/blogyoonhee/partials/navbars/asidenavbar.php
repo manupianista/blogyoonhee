@@ -8,7 +8,7 @@
                 <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/2.png" class="img-fluid" alt="Responsive image">
             </div>
 
-            <ul class="list-unstyled components">
+            <ul class="list-unstyled components text-center">
                 
                 <li class="active">
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="">HOME</a>

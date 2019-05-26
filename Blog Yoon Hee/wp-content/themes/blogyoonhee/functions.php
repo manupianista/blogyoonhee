@@ -13,8 +13,14 @@ function agregar_scripts() {
     wp_enqueue_script('bootstrap', get_template_directory_uri().'/assets/js/bootstrap.min.js', $dependencies, '4.3.1', true );
 }
 
+function agregar_scripts_toggle() {
+    $dependencies = array('jquery');
+    wp_enqueue_script('toggle', get_template_directory_uri().'/assets/js/toggle.js');
+}
+
 add_action( 'wp_enqueue_scripts', 'agregar_estilos' );
 add_action( 'wp_enqueue_scripts', 'agregar_scripts' );
+add_action( 'wp_enqueue_scripts', 'agregar_scripts_toggle' );
 
 /*se agregan las funciones de titulos*/
 function blog_wp_setup() {
