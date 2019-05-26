@@ -27,7 +27,12 @@
                 <li>
                     <a href="index.php/contact">CONTACT</a>
                 </li>
-                
+                <li>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook"></i>
+
+
+                </li>
             </ul>
 
           
