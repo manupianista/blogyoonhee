@@ -14,12 +14,17 @@ get_template_part('partials/navbars/asidenavbar');
         
     
         <!-- Page Content  -->
-        <div id="content">
+         
 
-            <?php get_template_part('partials/toggle'); ?>
+        <?php //    get_template_part('partials/toggle'); ?>
             
-        </div>
-    </div>
+       
+            <div class="embed-responsive embed-responsive-16by9 videoWrapper">
+                <video width="320" height="240" controls>
+                    <source src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/videoYoonHee.mp4" type="video/mp4">
+                </video>
+            </div>
+        
 
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
