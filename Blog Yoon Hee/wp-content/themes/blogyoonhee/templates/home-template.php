@@ -15,17 +15,22 @@ get_template_part('partials/navbars/asidenavbar');
     
         <!-- Page Content  -->
          
-
-        <?php //    get_template_part('partials/toggle'); ?>
+<div class="miheader col" id="content">
+<div class="micontainer">
+          <?php get_template_part('partials/toggle'); ?>
+        </div>
+            <div class="mioverlay"></div>
             
+        
        
-            <div class="embed-responsive embed-responsive-16by9 videoWrapper">
-                <video width="320" height="240" controls>
+            <!--<div class="embed-responsive embed-responsive-16by9 videoWrapper">-->
+                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" controls>
                     <source src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/videoYoonHee.mp4" type="video/mp4">
                 </video>
-            </div>
+          <!--  </div>-->
         
-
+</div>
+</div>
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
