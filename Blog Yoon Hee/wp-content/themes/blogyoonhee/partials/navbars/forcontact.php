@@ -21,7 +21,7 @@
                     <a href="http://www.yoonheefashion.info/collaborations/">COLLABORATIONS</a>
                 </li>
                 
-                <li class="active">
+                <li>
                     <a href="http://www.yoonheefashion.info/collection-no-1/">COLLECTION NO. 1</a>
                 </li>
                 
