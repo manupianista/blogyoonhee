@@ -409,10 +409,10 @@ a.article:hover {
   position: relative;
   z-index: 2;
   
-  -ms-transform: translateX(0%) translateY(50%);
-  -moz-transform: translateX(0%) translateY(50%);
-  -webkit-transform: translateX(0%) translateY(50%);
-  transform: translateX(0%) translateY(50%);
+  -ms-transform: translateX(0%) translateY(30%);
+  -moz-transform: translateX(0%) translateY(30%);
+  -webkit-transform: translateX(0%) translateY(30%);
+  transform: translateX(0%) translateY(30%);
 }
 
 .mipic .overlay1 {
