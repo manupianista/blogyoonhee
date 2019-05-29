@@ -63,8 +63,6 @@ get_template_part('partials/navbars/forcoll1');
    </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-    <script>
-	      baguetteBox.run('.cards-gallery', {animation: 'slideIn'});
-	</script>
+    
 
 <?php get_footer(); ?>
