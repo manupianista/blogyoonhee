@@ -15,7 +15,6 @@ get_template_part('partials/navbars/forcoll1');
 <div id="content">
     <?php get_template_part('partials/toggle'); ?>
 
-
 <!-- Collection No. 1 Content -->
 <section class="gallery-block cards-gallery">
    	<div class="container">
@@ -61,8 +60,11 @@ get_template_part('partials/navbars/forcoll1');
    		</div>
    	</div>
    </section>
-
+	
+	
+    <!-- BaguetteBox JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+
     
 
 <?php get_footer(); ?>

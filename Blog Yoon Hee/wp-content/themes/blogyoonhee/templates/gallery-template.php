@@ -15,64 +15,54 @@ get_template_part('partials/navbars/forgallery');
 <div id="content">
     <?php get_template_part('partials/toggle'); ?>
             
-<!-- Collection No. 1 Content -->
+<!-- Gallery Content -->
 <section class="gallery-block cards-gallery">
    	<div class="container">
    		<div class="row">
-   			<div class="col-md-6 col-lg-4 pl-2 pr-2">
+   			<div class="col-md-6 col-lg-4 pl-2 pr-2  py-3">
    				<div class="card border-0 transform-on-hover">
-   					<a class="lightbox" href=""><img src="" class="card-img-top"></a>
+   					<a class="lightbox" href="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSF0003.jpg"><img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/PH-Gallery-1.jpg" class="card-img-top"></a>
    				</div>
    			</div>
    			
-   			<div class="col-md-6 col-lg-4 pl-2 pr-2">
+   			<div class="col-md-6 col-lg-4 pl-2 pr-2  py-3">
    				<div class="card border-0 transform-on-hover">
-   					<a class="lightbox" href=""><img src="" class="card-img-top"></a>
+   					<a class="lightbox" href="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSF0013.jpg"><img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/PH-Gallery-2.jpg" class="card-img-top"></a>
    				</div>
    			</div>
    			
-   			<div class="col-md-6 col-lg-4 pl-2 pr-2">
+   			<div class="col-md-6 col-lg-4 pl-2 pr-2  py-3">
    				<div class="card border-0 transform-on-hover">
-   					<a class="lightbox" href=""><img src="" class="card-img-top"></a>
+   					<a class="lightbox" href="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSF9966.jpg"><img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/PH-Gallery-3.jpg" class="card-img-top"></a>
    				</div>
    			</div>
    		</div>
    		
    		
    		<div class="row">
-   			<div class="col-md-6 col-lg-4 pl-2 pr-2">
+   			<div class="col-md-6 col-lg-4 pl-2 pr-2  py-3">
    				<div class="card border-0 transform-on-hover">
-   					<a class="lightbox" href=""><img src="" class="card-img-top"></a>
+   					<a class="lightbox" href="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSF9978.jpg"><img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/PH-Gallery-4.jpg" class="card-img-top"></a>
    				</div>
    			</div>
    			
-   			<div class="col-md-6 col-lg-4 pl-2 pr-2">
+   			<div class="col-md-6 col-lg-4 pl-2 pr-2  py-3">
    				<div class="card border-0 transform-on-hover">
-   					<a class="lightbox" href=""><img src="" class="card-img-top"></a>
+   					<a class="lightbox" href="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSF9990.jpg"><img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/PH-Gallery-5.jpg" class="card-img-top"></a>
    				</div>
    			</div>
    			
-   			<div class="col-md-6 col-lg-4 pl-2 pr-2">
+   			<div class="col-md-6 col-lg-4 pl-2 pr-2  py-3">
    				<div class="card border-0 transform-on-hover">
-   					<a class="lightbox" href=""><img src="" class="card-img-top"></a>
+   					<a class="lightbox" href="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSF0003.jpg"><img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/PH-Gallery-1.jpg" class="card-img-top"></a>
    				</div>
    			</div>
    		</div>
    	</div>
    </section>
 
-    <!-- jQuery CDN - Slim version (=without AJAX) -->
-    <script src="8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <!-- Popper.JS -->
-    <script src="n.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <!-- Bootstrap JS -->
-    <script src="s" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    <!-- jQuery Custom Scroller CDN -->
-    <script src="/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-    
-    <script src="Box.min.js"></script>
-    <script>
-	      baguetteBox.run('.cards-gallery', {animation: 'slideIn'});
-	</script>
+   
+    <!-- BaguetteBox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
 
 <?php get_footer(); ?>
