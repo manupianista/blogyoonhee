@@ -15,17 +15,17 @@
                     
                 </li>
                 <li>
-                    <a href="index.php/gallery">GALLERY</a>
+                    <a href="http://www.yoonheefashion.info/gallery/">GALLERY</a>
                 </li>
                 <li>
-                    <a href="index.php/collection-no-1">COLLECTION NO. 1</a>
+                    <a href="http://www.yoonheefashion.info/collection-no-1/">COLLECTION NO. 1</a>
                 </li>
                 <li>
-                     <a href="index.php/best-proyect">BEST PROJECTS</a>
+                     <a href="http://www.yoonheefashion.info/best-projects/">BEST PROJECTS</a>
                 </li>
                 
                 <li class="active">
-                    <a href="index.php/contact">CONTACT</a>
+                    <a href="http://www.yoonheefashion.info/contact/">CONTACT</a>
                 </li>
                 <li>
                 <a href="https://instagram.com/_yoonheekim?igshid=d5hbuzfl1zfu" target="_blank"><i class="fab fa-instagram"></i></a>
