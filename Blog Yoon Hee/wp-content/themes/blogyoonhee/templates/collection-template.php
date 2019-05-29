@@ -11,83 +11,58 @@ get_header();
 get_template_part('partials/navbars/forcoll1');
 ?>
 
-<!-- Toggle button  -->
+<!-- Page Content  -->
 <div id="content">
-
-    <div class="micontainer">
     <?php get_template_part('partials/toggle'); ?>
 
 
-       
-
 <!-- Collection No. 1 Content -->
-<div class="container">
- 
-     <div class="container gallery-container">
+<section class="gallery-block cards-gallery">
+   	<div class="container">
+   		<div class="row">
+   			<div class="col-md-6 col-lg-4 pl-2 pr-2 py-3">
+   				<div class="card border-0 transform-on-hover">
+   					<a class="lightbox" href="http://localhost/blogyoonhee/Blog%20Yoon%20Hee/wp-content/uploads/2019/05/PH1_resized.jpg"><img src="http://localhost/blogyoonhee/Blog%20Yoon%20Hee/wp-content/uploads/2019/05/PH1_resized.jpg" class="card-img-top"></a>
+   				</div>
+   			</div>
+   			
+   			<div class="col-md-6 col-lg-4 pl-2 pr-2 py-3">
+   				<div class="card border-0 transform-on-hover">
+   					<a class="lightbox" href="http://localhost/blogyoonhee/Blog%20Yoon%20Hee/wp-content/uploads/2019/05/PH2_resized.jpg"><img src="http://localhost/blogyoonhee/Blog%20Yoon%20Hee/wp-content/uploads/2019/05/PH2_resized.jpg" class="card-img-top"></a>
+   				</div>
+   			</div>
+   			
+   			<div class="col-md-6 col-lg-4 pl-2 pr-2 py-3">
+   				<div class="card border-0 transform-on-hover">
+   					<a class="lightbox" href="http://localhost/blogyoonhee/Blog%20Yoon%20Hee/wp-content/uploads/2019/05/PH3_resized.jpg"><img src="http://localhost/blogyoonhee/Blog%20Yoon%20Hee/wp-content/uploads/2019/05/PH3_resized.jpg" class="card-img-top"></a>
+   				</div>
+   			</div>
+   		</div>
+   		
+   		
+   		<div class="row">
+   			<div class="col-md-6 col-lg-4 pl-2 pr-2 py-3">
+   				<div class="card border-0 transform-on-hover">
+   					<a class="lightbox" href="http://localhost/blogyoonhee/Blog%20Yoon%20Hee/wp-content/uploads/2019/05/PH4_resized.jpg"><img src="http://localhost/blogyoonhee/Blog%20Yoon%20Hee/wp-content/uploads/2019/05/PH4_resized.jpg" class="card-img-top"></a>
+   				</div>
+   			</div>
+   			
+   			<div class="col-md-6 col-lg-4 pl-2 pr-2 py-3">
+   				<div class="card border-0 transform-on-hover">
+   					<a class="lightbox" href="http://localhost/blogyoonhee/Blog%20Yoon%20Hee/wp-content/uploads/2019/05/PH5_resized.jpg"><img src="http://localhost/blogyoonhee/Blog%20Yoon%20Hee/wp-content/uploads/2019/05/PH5_resized.jpg" class="card-img-top"></a>
+   				</div>
+   			</div>
+   			
+   			<div class="col-md-6 col-lg-4 pl-2 pr-2 py-3">
+   				<div class="card border-0 transform-on-hover">
+   					<a class="lightbox" href="http://localhost/blogyoonhee/Blog%20Yoon%20Hee/wp-content/uploads/2019/05/PH6_resized.jpg"><img src="http://localhost/blogyoonhee/Blog%20Yoon%20Hee/wp-content/uploads/2019/05/PH6_resized.jpg" class="card-img-top"></a>
+   				</div>
+   			</div>
+   		</div>
+   	</div>
+   </section>
 
-           
-         <div class="tz-gallery">
-       
-             <div class="row mb-3">
-                 <div class="col-md-4">
-                     <div class="card">
-                         <a class="lightbox">
-                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0970.jpg" alt="Responsive image" class="card-img-top">
-                         </a>
-                     </div>
-                 </div>
-                  
-                 <div class="col-md-4">
-                     <div class="card">
-                         <a class="lightbox">
-                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0974-2.jpg" alt="Responsive image" class="card-img-top">
-                         </a>
-                     </div>
-                 </div>
-                  
-                 <div class="col-md-4">
-                     <div class="card">
-                         <a class="lightbox">
-                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0980.jpg" alt="Responsive image" class="card-img-top">
-                         </a>
-                     </div>
-                 </div>
-             </div>
-               <div class="row"> 
-                 <div class="col-md-4">
-                     <div class="card">
-                         <a class="lightbox">
-                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0977.jpg" alt="Responsive image" class="card-img-top">
-                         </a>
-                     </div>
-                 </div>
-                  
-                 <div class="col-md-4">
-                     <div class="card">
-                         <a class="lightbox">
-                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0943.jpg" alt="Responsive image" class="card-img-top">
-                         </a>
-                     </div>
-                 </div>
-                  
-                 <div class="col-md-4">
-                     <div class="card">
-                         <a class="lightbox">
-                         <img src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/DSC0961.jpg" alt="Responsive image" class="card-img-top">
-                         </a>
-                     </div>
-                 </div>
-              
-             </div>
-       
-         </div>
-       
-     </div>
-      
-     </div>
-     </div>
-    </div>
-
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    
 
 <?php get_footer(); ?>
