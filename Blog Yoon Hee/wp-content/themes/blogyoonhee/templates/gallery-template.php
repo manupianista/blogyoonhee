@@ -60,18 +60,11 @@ get_template_part('partials/navbars/forgallery');
    		</div>
    	</div>
    </section>
-<<<<<<< HEAD
-
-   
-    <!-- BaguetteBox JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-=======
 </div>
        
     <script src="Box.min.js"></script>
     <script>
 	      baguetteBox.run('.cards-gallery', {animation: 'slideIn'});
 	</script>
->>>>>>> 20567223d6d8f4f7b95227eda7a8c919515968e1
 
 <?php get_footer(); ?>
