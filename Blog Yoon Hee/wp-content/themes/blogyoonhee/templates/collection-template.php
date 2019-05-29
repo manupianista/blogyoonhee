@@ -64,8 +64,7 @@ get_template_part('partials/navbars/forcoll1');
 </div>
 </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-     <!-- jQuery CDN - Slim version (=without AJAX) -->
+<!-- baguetteBox JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     
-
 <?php get_footer(); ?>
