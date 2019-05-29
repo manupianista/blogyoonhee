@@ -376,15 +376,29 @@ a.article:hover {
 }
 
 .elform .formmsg {
-  height:300px;
+  height:200px;
 }
 
+.error{
+  padding: 5px 9px;
+  border: 1px solid red;
+  color: red;
+  border-radius: 3px;
+}
+
+.success{
+  padding: 5px 9px;
+  border: 1px solid green;
+  color: green;
+  border-radius: 3px;
+}
+/*
 .mipic {
   padding:10px;
-}
+}*/
 
 .mipic img {
-  padding:10px;
+  /*padding:10px;*/
   opacity: 0.5;
   position: absolute;
   top: 50%;

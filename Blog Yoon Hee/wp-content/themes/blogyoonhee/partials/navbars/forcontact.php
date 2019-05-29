@@ -10,20 +10,24 @@
 
             <ul class="list-unstyled components text-center">
                 
-                <li>
-                    <a href="index.ph/home">HOME</a>
+            <li>
+                    <a href="http://www.yoonheefashion.info/">HOME</a>
                     
-                </li>
-                <li>
-                    <a href="http://www.yoonheefashion.info/gallery/">GALLERY</a>
-                </li>
-                <li>
-                    <a href="http://www.yoonheefashion.info/collection-no-1/">COLLECTION NO. 1</a>
                 </li>
                 <li>
                      <a href="http://www.yoonheefashion.info/best-projects/">BEST PROJECTS</a>
                 </li>
+                <li>
+                    <a href="http://www.yoonheefashion.info/collaborations/">COLLABORATIONS</a>
+                </li>
                 
+                <li class="active">
+                    <a href="http://www.yoonheefashion.info/collection-no-1/">COLLECTION NO. 1</a>
+                </li>
+                
+                <li>
+                    <a href="http://www.yoonheefashion.info/gallery/">GALLERY</a>
+                </li>
                 <li class="active">
                     <a href="http://www.yoonheefashion.info/contact/">CONTACT</a>
                 </li>
