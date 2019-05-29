@@ -7,6 +7,7 @@
 </footer>
 <?php wp_footer(); ?>
 
+<<<<<<< HEAD
 <script>
     $(document).ready(
     function () {
@@ -22,5 +23,11 @@
 });
 </script>
 
+=======
+    <script>
+	      baguetteBox.run('.cards-gallery', {animation: 'slideIn'});
+	</script>
+    
+>>>>>>> kevin
 </body>
 </html>
