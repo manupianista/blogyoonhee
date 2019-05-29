@@ -11,7 +11,7 @@
             <ul class="list-unstyled components text-center">
                 
                 <li class="active">
-                    <a href="index.php">HOME</a>
+                    <a href="index.php/home">HOME</a>
                     
                 </li>
                 <li>
@@ -21,7 +21,7 @@
                     <a href="index.php/collection-no-1">COLLECTION NO. 1</a>
                 </li>
                 <li>
-                     <a href="index.php/best-proyect">BEST PROYECT</a>
+                     <a href="index.php/best-proyect">BEST PROJECTS</a>
                 </li>
                 
                 <li>

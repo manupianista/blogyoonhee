@@ -13,6 +13,8 @@ get_template_part('partials/navbars/forcoll1');
 
 <!-- Toggle button  -->
 <div id="content">
+
+    <div class="micontainer">
     <?php get_template_part('partials/toggle'); ?>
 
 
@@ -85,6 +87,7 @@ get_template_part('partials/navbars/forcoll1');
      </div>
      </div>
     </div>
+
      <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js">
 
 <?php get_footer(); ?>
