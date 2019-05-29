@@ -27,16 +27,6 @@
         theme: "minimal"
     });*/
 
-<<<<<<< HEAD
-=======
-<script>
-    $(document).ready(
-    function () {
-    $("#sidebar").mCustomScrollbar({
-        theme: "minimal"
-    });
-
->>>>>>> dev
     $('#sidebarCollapse').on('click', function () {
         $('#sidebar, #content').toggleClass('active');
         $('.collapse.in').toggleClass('in');
@@ -44,13 +34,10 @@
     });
 });
 </script>
-<<<<<<< HEAD
-=======
 
     <script>
 	      baguetteBox.run('.cards-gallery', {animation: 'slideIn'});
 	</script>
->>>>>>> dev
     
 </body>
 </html>
