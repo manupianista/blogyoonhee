@@ -30,7 +30,7 @@
 
                 <li>
                     <i class="fab fa-instagram"></i>
-                    <i class="fab fa-facebook"></i>
+                    
 
 
                 </li>
