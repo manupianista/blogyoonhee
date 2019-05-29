@@ -14,13 +14,23 @@ get_template_part('partials/navbars/asidenavbar');
         
     
         <!-- Page Content  -->
-        <div id="content">
-
-            <?php get_template_part('partials/toggle'); ?>
-            
+         
+<div class="miheader col" id="content">
+<div class="micontainer">
+          <?php get_template_part('partials/toggle'); ?>
         </div>
-    </div>
-
+            <div class="mioverlay"></div>
+            
+        
+       
+            <!--<div class="embed-responsive embed-responsive-16by9 videoWrapper">-->
+                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" controls>
+                    <source src="http://www.yoonheefashion.info/wp-content/uploads/2019/05/videoYoonHee.mp4" type="video/mp4">
+                </video>
+          <!--  </div>-->
+        
+</div>
+</div>
 
     
     
