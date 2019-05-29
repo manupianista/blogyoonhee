@@ -15,6 +15,10 @@ get_template_part('partials/navbars/forcoll1');
 <div id="content">
     <?php get_template_part('partials/toggle'); ?>
 
+<<<<<<< HEAD
+=======
+<div class="galerias">
+>>>>>>> 20567223d6d8f4f7b95227eda7a8c919515968e1
 <!-- Collection No. 1 Content -->
 <section class="gallery-block cards-gallery">
    	<div class="container">
@@ -60,11 +64,19 @@ get_template_part('partials/navbars/forcoll1');
    		</div>
    	</div>
    </section>
+<<<<<<< HEAD
 	
 	
     <!-- BaguetteBox JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
 
+=======
+</div>
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+     <!-- jQuery CDN - Slim version (=without AJAX) -->
+>>>>>>> 20567223d6d8f4f7b95227eda7a8c919515968e1
     
 
 <?php get_footer(); ?>
