@@ -8,7 +8,7 @@ Template Name: bestprojects-template
 
 <?php 
 get_header();
-get_template_part('partials/navbars/forcoll1');
+get_template_part('partials/navbars/forbest');
 ?>
 
 <!-- Page Content  -->
