@@ -29,7 +29,7 @@
                 </li>
 
                 <li>
-                    <i class="fab fa-instagram"></i>
+                    <a href="https://instagram.com/_yoonheekim?igshid=d5hbuzfl1zfu" target="_blank"><i class="fab fa-instagram"></i></a>
                     
 
 
