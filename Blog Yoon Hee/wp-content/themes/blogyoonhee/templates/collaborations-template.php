@@ -16,9 +16,9 @@ get_template_part('partials/navbars/forcollaborations');
 <div id="content">
     <?php get_template_part('partials/toggle'); ?> 
             
-	<!--<div class="galerias"> -->
-		<!-- Collaborations Content -->
-	<!--	<section class="gallery-block cards-gallery">
+	<div class="galerias">
+        <!-- Collaborations Content -->
+	    <section class="gallery-block cards-gallery">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-lg-4 pl-2 pr-2  py-3">
@@ -55,7 +55,6 @@ get_template_part('partials/navbars/forcollaborations');
 		</section>
 	</div>
 </div>
--->
 
 <!-- baguetteBox JS -->       
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
