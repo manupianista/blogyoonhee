@@ -1,5 +1,5 @@
 
-<nav class="">
+<nav class="elsupertoggle">
                     <div class="container-fluid mitoggle">
 
                     <button type="button" id="sidebarCollapse" class="btn btn-info">
