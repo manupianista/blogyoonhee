@@ -308,13 +308,9 @@ ul.CTAs a {
     font-size: 0.9em !important;
     display: block;
     border-radius: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
-a.download {
-    background: #fff;
-    color: #2D2D2D;
-}
 
 a.article,
 a.article:hover {
@@ -377,6 +373,7 @@ a.article:hover {
   width: auto;
   height: auto;
   z-index: 0;
+  object-fit:contain
   
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
@@ -430,7 +427,23 @@ a.article:hover {
     #sidebarCollapse span {
         display: none;
     }
-   
+    ul.CTAs {
+      padding: 20px;
+  }
+  
+  ul.CTAs a {
+      text-align: left;
+      font-size: 0.7em !important;
+      /*display: block;
+      border-radius: 5px;
+      margin-bottom: 10px;*/
+  }
+  #sidebar ul li a {
+    padding: 20px;
+    font-size: 0.7em;
+    overflow:hidden;
+    
+}
       
 
 }
