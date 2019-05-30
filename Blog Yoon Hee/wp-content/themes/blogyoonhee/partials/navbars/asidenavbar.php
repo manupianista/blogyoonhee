@@ -32,12 +32,15 @@
                     <a href="http://www.yoonheefashion.info/contact/">CONTACT</a>
                 </li>
 
+                <div  class="resaux">
                 <li>
-                    <a href="https://instagram.com/_yoonheekim?igshid=d5hbuzfl1zfu" target="_blank"><i class="fab fa-instagram"></i></a>
-                    
-
-
+                <a href="https://instagram.com/_yoonheekim?igshid=d5hbuzfl1zfu" target="_blank"><i class="fab fa-instagram"></i></a>
                 </li>
+                
+                </div>
+                <div class="copyr">
+                <p></p>
+                </div>
                 
             </ul>
 

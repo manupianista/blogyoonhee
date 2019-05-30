@@ -238,11 +238,12 @@ a:focus {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 100%;
     z-index: 999;
     background: #2D2D2D;
     color: #A0A0A0;
     transition: all 0.3s;
+    /*overflow:scroll;*/
 }
 
 #sidebar.active {
@@ -266,7 +267,7 @@ a:focus {
 
 #sidebar ul li a {
     padding: 20px;
-    font-size: 1.1em;
+    font-size: 1em;
     display: block;
 }
 
@@ -309,6 +310,15 @@ ul.CTAs a {
     display: block;
     border-radius: 5px;
     margin-bottom: 10px;
+}
+
+ul .resaux li{
+  /*position:absolute;*/
+  bottom:10%;
+  text-align: center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 
@@ -398,17 +408,13 @@ a.article:hover {
 }*/
 
 .mipic img {
-  /*padding:10px;*/
-  opacity: 0.5;
+  
+  opacity: 0.3;
   position: absolute;
+
   top: 50%;
   left: 50%;
-  /*min-width: 100%;
-  min-height: 100%;*/
-  /*width: auto;*/
   height: auto;
-  /*object-fit:contain;*/
-  /*height:100%;*/
   width:100%;
 
   z-index: 0;
@@ -423,20 +429,19 @@ a.article:hover {
   position: relative;
   z-index: 2;
   
-  -ms-transform: translateX(0%) translateY(30%);
-  -moz-transform: translateX(0%) translateY(30%);
-  -webkit-transform: translateX(0%) translateY(30%);
-  transform: translateX(0%) translateY(30%);
+  font-size: 1.0em !important;
+  -ms-transform: translateX(0%) translateY(40%);
+  -moz-transform: translateX(0%) translateY(40%);
+  -webkit-transform: translateX(0%) translateY(40%);
+  transform: translateX(0%) translateY(40%);
 }
 
 .mipic .overlay1 {
   position: absolute;
  
-  /*top: 0;
-  left: 0;*/
-  height: 100%;
+  height: auto;
   width: 100%;
-  /*background-color: black;*/
+ 
   opacity: 3;
   z-index: 1;
 }
@@ -508,9 +513,64 @@ a.article:hover {
     MEDIAQUERIES
 ----------------------------------------------------- */
 
+@media (max-width: 1190px) {
+  
+   .mipic .container1 {
+      font-size: 0.9em !important;
+      height:50%;
+      -ms-transform: translateX(0%) translateY(75%);
+      -moz-transform: translateX(0%) translateY(75%);
+      -webkit-transform: translateX(0%) translateY(75%);
+      transform: translateX(0%) translateY(75%);
+    }
+}
+
+
+@media (max-width: 1000px) {
+  #sidebar {
+      margin-left: -30%;
+  }
+  #sidebar.active {
+      margin-left: 0;
+      width:20%;
+  }
+  #content {
+      width: 100%;
+  }
+  #content.active {
+      width: 80%;
+  }
+  #sidebarCollapse span {
+      display: none;
+  }
+  ul.CTAs {
+    padding: 20px;
+  }
+
+  ul.CTAs a {
+      text-align: left;
+      font-size: 0.7em !important;
+     }
+  #sidebar ul li a {
+    padding: 20px;
+    font-size: 0.7em;
+    overflow:hidden;
+    
+    }
+   .mipic .container1 {
+      font-size: 0.8em !important;
+     height:30%;
+      -ms-transform: translateX(0%) translateY(75%);
+      -moz-transform: translateX(0%) translateY(75%);
+      -webkit-transform: translateX(0%) translateY(75%);
+      transform: translateX(0%) translateY(75%);
+    }
+}
+
+
 @media (max-width: 768px) {
     #sidebar {
-        margin-left: -20%;
+        margin-left: -30%;
     }
     #sidebar.active {
         margin-left: 0;
@@ -531,23 +591,27 @@ a.article:hover {
   
   ul.CTAs a {
       text-align: left;
-      font-size: 0.7em !important;
+      font-size: 0.6em !important;
       /*display: block;
       border-radius: 5px;
       margin-bottom: 10px;*/
   }
   #sidebar ul li a {
-    padding: 20px;
+    padding: 10px;
     font-size: 0.7em;
     overflow:hidden;
     
     }
+
+    
+
     .mipic {
       padding: 10%;
     }
 
     .espaciopic {
       padding: 10%;
+      margin-bottom:10%;
     }
     .miformulario {
        margin-bottom:15%;
@@ -556,7 +620,7 @@ a.article:hover {
     
 .mipic img {
   
-  height: 100%;
+  height: auto;
   /*object-fit:contain;*/
   /*height:100%;*/
   width:100%;
@@ -574,18 +638,18 @@ a.article:hover {
   -ms-transform: translateX(0%) translateY(0%);
   -moz-transform: translateX(0%) translateY(0%);
   -webkit-transform: translateX(0%) translateY(0%);
-  transform: translateX(0%) translateY(10%);
+  transform: translateX(0%) translateY(30%);
 }
 
 .mipic .container1 p {
-  padding:2px;
+  padding:2%;
 }
 
 .mipic .overlay1 {
   position: absolute;
  
-  /*top: 0;
-  left: 0;*/
+  top: 0;
+  left: 0;
   height: 100%;
   width: 100%;
   /*background-color: black;*/
@@ -593,9 +657,28 @@ a.article:hover {
   z-index: 1;
 }
 
-    
-
-      
 
 }
 
+
+@media (max-width: 400px) {
+ 
+  ul.CTAs {
+    padding:5px;
+}
+
+ul.CTAs a {
+    text-align: left;
+    font-size: 0.3em !important;
+    /*display: block;
+    border-radius: 5px;
+    margin-bottom: 10px;*/
+}
+#sidebar ul li a {
+  padding: 5px;
+  font-size: 0.7em;
+ 
+  
+  }
+
+}
