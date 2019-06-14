@@ -36,9 +36,9 @@ Text Domain: blogyoonhee
   h5, .h5,
   h6, .h6 {
     margin-top: 0;
-    font-family: 'Futura Bold', sans-serif;
-    font-weight: bolder;
-    color: #000;
+    font-family: 'Futura Heavy', sans-serif;
+    font-weight: bold;
+    color: #000000;
   }
   
   
@@ -441,10 +441,10 @@ a.article:hover {
   z-index: 2;
   
   font-size: 1.0em !important;
-  -ms-transform: translateX(0%) translateY(40%);
-  -moz-transform: translateX(0%) translateY(40%);
-  -webkit-transform: translateX(0%) translateY(40%);
-  transform: translateX(0%) translateY(40%);
+  -ms-transform: translateX(0%) translateY(5%);
+  -moz-transform: translateX(0%) translateY(5%);
+  -webkit-transform: translateX(0%) translateY(5%);
+  transform: translateX(0%) translateY(5%);
 }
 
 .mipic .overlay1 {
@@ -529,10 +529,10 @@ a.article:hover {
    .mipic .container1 {
       font-size: 0.9em !important;
       height:50%;
-      -ms-transform: translateX(0%) translateY(75%);
-      -moz-transform: translateX(0%) translateY(75%);
-      -webkit-transform: translateX(0%) translateY(75%);
-      transform: translateX(0%) translateY(75%);
+      -ms-transform: translateX(0%) translateY(15%);
+      -moz-transform: translateX(0%) translateY(15%);
+      -webkit-transform: translateX(0%) translateY(15%);
+      transform: translateX(0%) translateY(15%);
     }
 }
 
@@ -571,10 +571,10 @@ a.article:hover {
    .mipic .container1 {
       font-size: 0.8em !important;
      height:30%;
-      -ms-transform: translateX(0%) translateY(75%);
-      -moz-transform: translateX(0%) translateY(75%);
-      -webkit-transform: translateX(0%) translateY(75%);
-      transform: translateX(0%) translateY(75%);
+      -ms-transform: translateX(0%) translateY(15%);
+      -moz-transform: translateX(0%) translateY(15%);
+      -webkit-transform: translateX(0%) translateY(15%);
+      transform: translateX(0%) translateY(15%);
     }
 }
 
@@ -649,7 +649,7 @@ a.article:hover {
   -ms-transform: translateX(0%) translateY(0%);
   -moz-transform: translateX(0%) translateY(0%);
   -webkit-transform: translateX(0%) translateY(0%);
-  transform: translateX(0%) translateY(30%);
+  transform: translateX(0%) translateY(5%);
 }
 
 .mipic .container1 p {
