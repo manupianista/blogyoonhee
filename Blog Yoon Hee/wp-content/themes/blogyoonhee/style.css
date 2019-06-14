@@ -13,6 +13,17 @@ Text Domain: blogyoonhee
  * Globals
  */
 
+ @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+ 
+ @font-face {
+  font-family: "Futura";
+  src: url("assets/fonts/fontawesome-webfont.eot");
+  src:
+  url("assets/fonts/fontawesome-webfont.woff") format("woff"),
+  url("assets/fonts/Futura-CondensedLight.otf") format("opentype"),
+  url("assets/fonts/fontawesome-webfont.svg") format("svg");
+  }
+
  body {
     font-family: Georgia, "Times New Roman", Times, serif;
     color: #555;
@@ -25,9 +36,9 @@ Text Domain: blogyoonhee
   h5, .h5,
   h6, .h6 {
     margin-top: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: normal;
-    color: #333;
+    font-family: 'Futura Bold', sans-serif;
+    font-weight: bolder;
+    color: #000;
   }
   
   

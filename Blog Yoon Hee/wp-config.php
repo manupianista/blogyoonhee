@@ -29,7 +29,7 @@ define( 'DB_USER', 'blogger' );
 define( 'DB_PASSWORD', 'ELblogger1234!' );
 
 /** MySQL hostname */
-define( 'DB_HOST', '25.74.104.162' );
+define( 'DB_HOST', '25.70.240.10' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );

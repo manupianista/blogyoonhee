@@ -114,7 +114,9 @@ get_template_part('partials/navbars/forcontact');
                     <div class="text-center align-items-center">
                     <div class="w-100 text-white">
                         <!--<h1 class="display-3">ABOUT YOON HEE</h1>-->
-                        <h3>ABOUT YOON HEE</h3>
+                        <h2>ABOUT</h2>
+                        <h2>YOON</h2>
+                        <h2>HEE</h2>
                         <p class=" mb-0">My name is Yoon Hee Kim, I'm a korean fashion designer currently residing and working from Guatemala City in Central America. </p><br/>
                         <p class=" mb-0">My work revolves around approaching pattern making as the initial point of my research as well as the appreciation of the local craftsmanship`s talent, even though my aesthetical values grew apart from the guatemalan traditional palette and form; those ideas and exposure developed in me a sense of closeness and the intimacy to the pieces that I design, even though my mind frame is always set to industrial mass production.</p><br/>
                         <p class=" mb-0">My preference is for simple forms, a classical minimal approach to color and function.</p><br/>
